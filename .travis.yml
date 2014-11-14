@@ -8,5 +8,5 @@ before_install:
   - sudo apt-get install -y unixodbc 
   - sudo apt-get install -y unixodbc-dev
   - unzip install/sqlncli-11.0.1790.0.zip
-  - sudo bash sqlncli-11.0.1790.0/install.sh install --accept-license --force
+  - sudo bash sqlncli-11.0.1790.0/install.sh install --accept-license --force --lib-dir=/tmp/
 script: python test.py
