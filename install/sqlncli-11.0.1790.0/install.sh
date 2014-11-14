@@ -3,7 +3,7 @@
 # Copyright Microsoft Corp.
 
 # Set to 1 for debugging information/convenience.
-debug=0
+debug=1
 
 # Strings listed here
 driver_name="Microsoft SQL Server ODBC Driver V1.0 for Linux";
